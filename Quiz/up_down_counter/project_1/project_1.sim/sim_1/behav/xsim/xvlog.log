@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Quiz/up_down_counter/up_down_counter_Fall2022Quiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module up_down_counter_Fall2022Quiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Quiz/up_down_counter/up_down_counter_Fall2022Quiz_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module up_down_counter_Fall2022Quiz_tb

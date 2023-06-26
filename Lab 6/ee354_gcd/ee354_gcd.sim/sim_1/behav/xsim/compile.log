@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Lab 6/ee354L_GCD/ee354L_GCD/ee354_GCD.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ee354_GCD
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Lab 6/ee354L_GCD/ee354L_GCD/ee354_GCD_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ee354_GCD_SCEN_tb_v

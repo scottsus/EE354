@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Oct 15 11:38:21 2022
+# Process ID: 3800
+# Current directory: C:/Users/scottsus/EE 354/Lab 8/Picoblaze_Design_Steps_Demo/synthesis/picoblaze_demo/picoblaze_demo.runs/synth_1
+# Command line: vivado.exe -log picoblaze_demo_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source picoblaze_demo_top.tcl
+# Log file: C:/Users/scottsus/EE 354/Lab 8/Picoblaze_Design_Steps_Demo/synthesis/picoblaze_demo/picoblaze_demo.runs/synth_1/picoblaze_demo_top.vds
+# Journal file: C:/Users/scottsus/EE 354/Lab 8/Picoblaze_Design_Steps_Demo/synthesis/picoblaze_demo/picoblaze_demo.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source picoblaze_demo_top.tcl -notrace

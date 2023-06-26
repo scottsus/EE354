@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Programming Homework 3/copy_array_to_array_imp1_sp10/copy_array_to_array_imp1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module copy_array_to_array_imp1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Programming Homework 3/copy_array_to_array_imp1_sp10/copy_array_to_array_imp1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module copy_array_to_array_imp1_tb

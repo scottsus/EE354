@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/make_a_close_to_b/make_A_close_to_B_sp10/make_A_close_to_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module make_A_close_to_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/make_a_close_to_b/make_A_close_to_B_sp10/make_A_close_to_B_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module make_A_close_to_B_tb

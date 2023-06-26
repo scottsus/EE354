@@ -1,0 +1,252 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 31 19:25:49 2022
+# Process ID: 6512
+# Current directory: C:/Labs/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log ee354_detour_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ee354_detour_top.tcl
+# Log file: C:/Labs/project_1/project_1.runs/synth_1/ee354_detour_top.vds
+# Journal file: C:/Labs/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ee354_detour_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1088.180 ; gain = 0.000
+Command: synth_design -top ee354_detour_top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7356
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1116.008 ; gain = 27.828
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ee354_detour_top' [C:/Labs/ee354_detour_verilog/ee354_detour_top.v:13]
+	Parameter L_SSDLTR bound to: 7'b1110001 
+	Parameter R_SSDLTR bound to: 7'b0001000 
+	Parameter SSD_OFF bound to: 7'b1111111 
+	Parameter QI_NUM bound to: 4'b0000 
+	Parameter QL1_NUM bound to: 4'b0001 
+	Parameter QL12_NUM bound to: 4'b0010 
+	Parameter QL123_NUM bound to: 4'b0011 
+	Parameter QR1_NUM bound to: 4'b0100 
+	Parameter QR12_NUM bound to: 4'b0101 
+	Parameter QR123_NUM bound to: 4'b0110 
+	Parameter UNKNOWN bound to: 4'b1111 
+INFO: [Synth 8-6157] synthesizing module 'ee354_detour_sm' [C:/Labs/ee354_detour_verilog/ee354_detour_sm.v:16]
+	Parameter QI bound to: 7'b0000001 
+	Parameter QR1 bound to: 7'b0000010 
+	Parameter QR12 bound to: 7'b0000100 
+	Parameter QR123 bound to: 7'b0001000 
+	Parameter QL1 bound to: 7'b0010000 
+	Parameter QL12 bound to: 7'b0100000 
+	Parameter QL123 bound to: 7'b1000000 
+	Parameter UNK bound to: 7'bxxxxxxx 
+INFO: [Synth 8-6155] done synthesizing module 'ee354_detour_sm' (1#1) [C:/Labs/ee354_detour_verilog/ee354_detour_sm.v:16]
+INFO: [Synth 8-226] default block is never used [C:/Labs/ee354_detour_verilog/ee354_detour_top.v:209]
+INFO: [Synth 8-6155] done synthesizing module 'ee354_detour_top' (2#1) [C:/Labs/ee354_detour_verilog/ee354_detour_top.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1167.664 ; gain = 79.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1167.664 ; gain = 79.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1167.664 ; gain = 79.484
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1167.664 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Labs/ee354_detour_verilog/ee354_detour_top.xdc]
+Finished Parsing XDC File [C:/Labs/ee354_detour_verilog/ee354_detour_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Labs/ee354_detour_verilog/ee354_detour_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ee354_detour_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ee354_detour_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1260.238 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1260.238 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1260.238 ; gain = 172.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1260.238 ; gain = 172.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1260.238 ; gain = 172.059
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ee354_detour_sm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+*
+                      QI |                          0000001 |                          0000001
+                     QL1 |                          0010000 |                          0010000
+                    QL12 |                          0100000 |                          0100000
+                   QL123 |                          1000000 |                          1000000
+                     QR1 |                          0000010 |                          0000010
+                    QR12 |                          0000100 |                          0000100
+                   QR123 |                          0001000 |                          0001000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'state_reg' in module 'ee354_detour_sm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 1260.238 ; gain = 172.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	  11 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   8 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1260.238 ; gain = 172.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:06 ; elapsed = 00:01:10 . Memory (MB): peak = 1264.133 ; gain = 175.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:11 . Memory (MB): peak = 1284.148 ; gain = 195.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:11 . Memory (MB): peak = 1284.918 ; gain = 196.738
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     1|
+|4     |LUT2   |     5|
+|5     |LUT3   |     2|
+|6     |LUT5   |     7|
+|7     |LUT6   |    12|
+|8     |FDCE   |    32|
+|9     |FDPE   |     1|
+|10    |IBUF   |     3|
+|11    |OBUF   |    36|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:01:15 . Memory (MB): peak = 1291.711 ; gain = 110.957
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:01:23 . Memory (MB): peak = 1291.711 ; gain = 203.531
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1303.809 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1308.871 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:40 ; elapsed = 00:01:53 . Memory (MB): peak = 1308.871 ; gain = 220.691
+INFO: [Common 17-1381] The checkpoint 'C:/Labs/project_1/project_1.runs/synth_1/ee354_detour_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ee354_detour_top_utilization_synth.rpt -pb ee354_detour_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 31 19:28:08 2022...

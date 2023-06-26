@@ -1,0 +1,29 @@
+C:/ModelSim_projects/work/ee354_GCD_tb_part2.v {1 {vlog -work work -vopt -stats=none C:/ModelSim_projects/work/ee354_GCD_tb_part2.v
+QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module ee354_GCD_CEN_part2_tb_v
+
+Top level modules:
+	ee354_GCD_CEN_part2_tb_v
+
+} {} {}} C:/ModelSim_projects/work/ee354_GCD_tb_part3.v {1 {vlog -work work -vopt -stats=none C:/ModelSim_projects/work/ee354_GCD_tb_part3.v
+QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module ee354_GCD_CEN_part3_tb_v
+
+Top level modules:
+	ee354_GCD_CEN_part3_tb_v
+
+} {} {}} C:/ModelSim_projects/work/ee354_GCD_tb_part1.v {1 {vlog -work work -vopt -stats=none C:/ModelSim_projects/work/ee354_GCD_tb_part1.v
+QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module ee354_GCD_CEN_part1_tb_v
+
+Top level modules:
+	ee354_GCD_CEN_part1_tb_v
+
+} {} {}} C:/ModelSim_projects/work/ee354_GCD.v {1 {vlog -work work -vopt -stats=none C:/ModelSim_projects/work/ee354_GCD.v
+QuestaSim-64 vlog 10.6a Compiler 2017.03 Mar 16 2017
+-- Compiling module ee354_GCD
+
+Top level modules:
+	ee354_GCD
+
+} {} {}}

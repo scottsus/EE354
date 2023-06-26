@@ -1,0 +1,4 @@
+Running: xsim.dir/up_down_counter_Fall2022Quiz_tb_behav/xsimk.exe -simmode gui -wdb up_down_counter_Fall2022Quiz_tb_behav.wdb -simrunnum 0 -socket 55476
+Design successfully loaded
+Design Loading Memory Usage: 6128 KB (Peak: 6128 KB)
+Design Loading CPU Usage: 62 ms

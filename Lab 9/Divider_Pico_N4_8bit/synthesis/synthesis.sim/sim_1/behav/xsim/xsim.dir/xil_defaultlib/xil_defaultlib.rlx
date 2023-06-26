@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/divider_8_top_simulation.v,1666338706,verilog,,C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/kcpsm6.v,,divider_8_top_simulation,,,,,,,,
+C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/divider_8_top_simulation_tb.v,1666338025,verilog,,,,divider_8_top_simulation_tb,,,,,,,,
+C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/kcpsm6.v,1665821378,verilog,,C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/prom_divider_8.v,,kcpsm6,,,,,,,,
+C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/prom_divider_8.v,1666837196,verilog,,C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/sources/divider_8_top_simulation_tb.v,,jtag_loader_6;prom_divider_8,,,,,,,,
+C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_8bit/synthesis/synthesis.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,

@@ -1,0 +1,21 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Test number   1: Found 147 decimal = 93 hex as the largest divisible by 7 number.
+           Clock taken for this test = 136. 
+
+Test number   2: Could not find any divisible by 7 number.  Max_tb remained as   0. 
+           Clock taken for this test = 186. 
+
+Test number   3: Could not find any divisible by 7 number.  Max_tb remained as   0. 
+           Clock taken for this test = 186. 
+
+Test number   4: Found 133 decimal = 85 hex as the largest divisible by 7 number.
+           Clock taken for this test = 167. 
+
+Test number   5: Found 133 decimal = 85 hex as the largest divisible by 7 number.
+           Clock taken for this test = 72. 
+
+
+ All tests concluded. Inspect the text file output_results.txt. 
+ Current Clock Count = 763 
+$stop called at time : 15291 ns : File "C:/Users/scottsus/EE 354/Programming Homework 2/largest_num_divisible_by_7_sp10/largest_num_divisible_by_7_tb.v" Line 124

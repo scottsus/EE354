@@ -1,0 +1,4 @@
+Running: xsim.dir/ee354_GCD_SCEN_tb_v_behav/xsimk.exe -simmode gui -wdb ee354_GCD_SCEN_tb_v_behav.wdb -simrunnum 0 -socket 59766
+Design successfully loaded
+Design Loading Memory Usage: 6648 KB (Peak: 6648 KB)
+Design Loading CPU Usage: 62 ms

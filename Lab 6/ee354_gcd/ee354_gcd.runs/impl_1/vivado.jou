@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Sep 28 19:24:24 2022
+# Process ID: 9420
+# Current directory: C:/Users/scottsus/ee354_gcd/ee354_gcd.runs/impl_1
+# Command line: vivado.exe -log ee354_GCD_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ee354_GCD_top.tcl -notrace
+# Log file: C:/Users/scottsus/ee354_gcd/ee354_gcd.runs/impl_1/ee354_GCD_top.vdi
+# Journal file: C:/Users/scottsus/ee354_gcd/ee354_gcd.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ee354_GCD_top.tcl -notrace

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Programming Homework 2/largest_num_divisible_by_7_sp10/largest_num_divisible_by_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module largest_num_divisible_by_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/scottsus/EE 354/Programming Homework 2/largest_num_divisible_by_7_sp10/largest_num_divisible_by_7_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module largest_num_divisible_by_7_tb

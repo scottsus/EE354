@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Oct 15 14:35:12 2022
+# Process ID: 9068
+# Current directory: C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_4bit/synthesis/synthesis.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_4bit/synthesis/synthesis.sim/sim_1/behav/xsim/xsim.dir/divider_4_top_simulation_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_4bit/synthesis/synthesis.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/scottsus/EE 354/Lab 9/Divider_Pico_N4_4bit/synthesis/synthesis.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/scottsus/EE -notrace
+invalid command name "%"
+    while executing
+"% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current"
+    (file "C:/Users/scottsus/EE" line 1)
+INFO: [Common 17-206] Exiting Webtalk at Sat Oct 15 14:35:12 2022...

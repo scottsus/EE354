@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 31 19:25:49 2022
+# Process ID: 6512
+# Current directory: C:/Labs/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log ee354_detour_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ee354_detour_top.tcl
+# Log file: C:/Labs/project_1/project_1.runs/synth_1/ee354_detour_top.vds
+# Journal file: C:/Labs/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ee354_detour_top.tcl -notrace
